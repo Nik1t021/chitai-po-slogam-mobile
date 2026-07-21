@@ -1,0 +1,12 @@
+ПОЛНОЭКРАННЫЕ ИЗОБРАЖЕНИЯ
+
+Заменённые картинки теперь заполняют окно изображения полностью, без заблюренных полей.
+Размер каждого файла: 1280×634.
+
+бананы.png -> images/banany.jpg
+бегемот.png -> images/begemot.jpg
+белка.png -> images/belka.jpg
+вода.png -> images/voda.jpg
+ворона.png -> images/vorona.jpg
+зайка.png -> images/zaika.jpg
+лиса.png -> images/lisa.jpg

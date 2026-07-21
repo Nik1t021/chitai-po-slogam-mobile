@@ -1,0 +1,71 @@
+НОВАЯ ОЗВУЧКА — ПЕРЕИМЕНОВАНИЕ В ЛАТИНИЦУ
+
+Формат: русское имя -> имя в проекте
+
+СЛОВА:
+бананы.wav -> audio/words/banany.wav
+бегемот.wav -> audio/words/begemot.wav
+белка.wav -> audio/words/belka.wav
+вода.wav -> audio/words/voda.wav
+ворона.wav -> audio/words/vorona.wav
+зайка.wav -> audio/words/zaika.wav
+книга.wav -> audio/words/kniga.wav
+коза.wav -> audio/words/koza.wav
+корова.wav -> audio/words/korova.wav
+котенок.wav -> audio/words/kotenok.wav
+кошка.wav -> audio/words/koshka.wav
+лиса.wav -> audio/words/lisa.wav
+луна.wav -> audio/words/luna.wav
+малина.wav -> audio/words/malina.wav
+мама.wav -> audio/words/mama.wav
+машина.wav -> audio/words/mashina.wav
+миска.wav -> audio/words/miska.wav
+мишка.wav -> audio/words/mishka.wav
+молоко.wav -> audio/words/moloko.wav
+мышка.wav -> audio/words/myshka.wav
+нога.wav -> audio/words/noga.wav
+папа.wav -> audio/words/papa.wav
+радуга.wav -> audio/words/raduga.wav
+розы.wav -> audio/words/rozy.wav
+рука.wav -> audio/words/ruka.wav
+рыба.wav -> audio/words/ryba.wav
+собака.wav -> audio/words/sobaka.wav
+сова.wav -> audio/words/sova.wav
+утка.wav -> audio/words/utka.wav
+черепаха.wav -> audio/words/cherepakha.wav
+
+СЛОГИ:
+бе.wav -> audio/syllables/be.wav
+бел.wav -> audio/syllables/bel.wav
+га.wav -> audio/syllables/ga.wav
+ге.wav -> audio/syllables/ge.wav
+ду.wav -> audio/syllables/du.wav
+зай.wav -> audio/syllables/zai.wav
+зы.wav -> audio/syllables/zy.wav
+ка.wav -> audio/syllables/ka.wav
+кни.wav -> audio/syllables/kni.wav
+кош.wav -> audio/syllables/kosh.wav
+ли.wav -> audio/syllables/li.wav
+ло.wav -> audio/syllables/lo.wav
+мис.wav -> audio/syllables/mis.wav
+миш.wav -> audio/syllables/mish.wav
+мот.wav -> audio/syllables/mot.wav
+мыш.wav -> audio/syllables/mysh.wav
+но.wav -> audio/syllables/no.wav
+нок.wav -> audio/syllables/nok.wav
+ны.wav -> audio/syllables/ny.wav
+ра.wav -> audio/syllables/ra.wav
+ре.wav -> audio/syllables/re.wav
+ру.wav -> audio/syllables/ru.wav
+са.wav -> audio/syllables/sa.wav
+те.wav -> audio/syllables/te.wav
+ут.wav -> audio/syllables/ut.wav
+ха.wav -> audio/syllables/kha.wav
+че.wav -> audio/syllables/che.wav
+ши.wav -> audio/syllables/shi.wav
+
+СОХРАНЕНЫ ИЗ ПРЕДЫДУЩЕЙ ВЕРСИИ, ПОТОМУ ЧТО ИХ НЕТ В НОВОМ ARCHIVE:
+ba.wav, da.wav, ko.wav, lu.wav, ma.wav, na.wav, pa.wav, ry.wav, so.wav, va.wav, vo.wav, za.wav
+
+СЛОГИ БЕЗ ЗАПИСИ:
+mo.wav, ro.wav
