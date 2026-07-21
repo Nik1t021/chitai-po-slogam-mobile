@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#ff9b00">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Читай по слогам">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="./icons/favicon.png">
+  <title>Читай по слогам</title>
+  <link rel="stylesheet" href="style.css?v=8-mobile">
+</head>
+<body>
+  <main id="app" class="stage" aria-label="Читай по слогам">
+    <header class="mobile-header" aria-hidden="true">
+      <span class="mobile-logo">📖</span>
+      <span class="mobile-title">Читай по слогам</span>
+    </header>
+    <section class="word-list-panel" aria-label="Список слов">
+      <div class="word-list-count">(<span id="currentNumber">1</span> / <span id="totalNumber">30</span>)</div>
+      <div id="wordList" class="word-list"></div>
+    </section>
+
+    <section class="dynamic-card" aria-live="polite">
+      <div id="picture" class="picture"></div>
+      <div id="wordLabel" class="word-label"></div>
+      <div class="controls-mask">
+        <div id="syllables" class="syllables"></div>
+        <button id="playWordButton" class="play-word-button" type="button" aria-label="Произнести слово">
+          <span class="play-triangle"></span>
+          <span class="play-word-text">СЛОВО</span>
+          <span class="speaker-icon small"></span>
+        </button>
+      </div>
+    </section>
+
+    <button id="soundButton" class="hit-button sound-hit" type="button" aria-label="Выключить звук"></button>
+    <button id="settingsButton" class="hit-button settings-hit" type="button" aria-label="Настройки"></button>
+    <button id="previousButton" class="hit-button previous-hit" type="button" aria-label="Предыдущее слово"></button>
+    <button id="nextButton" class="hit-button next-hit" type="button" aria-label="Следующее слово"></button>
+    <button id="praiseButton" class="praise-pulse" type="button" aria-label="Проиграть случайную похвалу"></button>
+    <div id="message" class="visually-hidden" aria-live="polite"></div>
+  </main>
+
+  <audio id="audioPlayer" preload="auto" playsinline hidden></audio>
+
+  <script src="data.js?v=8-mobile"></script>
+  <script src="app.js?v=8-mobile"></script>
+</body>
+</html>
